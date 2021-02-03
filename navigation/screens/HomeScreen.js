@@ -20,6 +20,10 @@ const HomeScreen = ({navigation: {navigate}}) => {
                 label={'Home Work #1'}
                 onPress={() => navigateTo('HomeWork1')}
             />
+            <Button
+                label={'Example #3'}
+                onPress={() => navigateTo('Example3')}
+            />
         </View>
     );
 };
