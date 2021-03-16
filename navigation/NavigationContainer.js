@@ -9,6 +9,8 @@ import Example1Screen from './screens/Example1Screen';
 import Example2Screen from './screens/Example2Screen';
 import Example3Screen from './screens/Example3Screen';
 import Example4Screen from './screens/example4/Example4';
+import Example5Screen from './screens/Example5Screen';
+import Example6Screen from './screens/Example6Screen';
 
 import HomeWork1Screen from './screens/HomeWork1Screen';
 import HomeWork2Screen from './screens/homework2/HomeWork2Screen';
@@ -54,6 +56,16 @@ const Navigation = () => {
                 <Stack.Screen
                     name="HomeWork2"
                     component={HomeWork2Screen}
+                    options={OPTIONS_DEFAULT}
+                />
+                <Stack.Screen
+                    name="Example5"
+                    component={Example5Screen}
+                    options={OPTIONS_DEFAULT}
+                />
+                <Stack.Screen
+                    name="Example6"
+                    component={Example6Screen}
                     options={OPTIONS_DEFAULT}
                 />
             </Stack.Navigator>

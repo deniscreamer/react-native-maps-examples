@@ -13,7 +13,7 @@ const Button = ({label, ...props}) => {
 
 const styles = StyleSheet.create({
     container: {
-        width: 150,
+        width: 250,
         height: 45,
         backgroundColor: 'blue',
         borderRadius: 20,

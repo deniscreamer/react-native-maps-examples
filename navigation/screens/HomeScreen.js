@@ -32,6 +32,14 @@ const HomeScreen = ({navigation: {navigate}}) => {
                 label={'Home Work #2'}
                 onPress={() => navigateTo('HomeWork2')}
             />
+            <Button
+                label={'Example #5 (Track)'}
+                onPress={() => navigateTo('Example5')}
+            />
+            <Button
+                label={'Example #6 (Marker Animated)'}
+                onPress={() => navigateTo('Example6')}
+            />
         </View>
     );
 };
